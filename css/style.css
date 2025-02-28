@@ -387,6 +387,12 @@ a {
     padding: 0 20px;
   }
 }
+@media (max-width: 767px) {
+  .container {
+    max-width: 375px;
+    padding: 0 15px;
+  }
+}
 
 .visually-hidden {
   position: absolute;
@@ -580,6 +586,16 @@ a {
 .quiet {
   padding: 48px 0 80px 0;
 }
+@media (max-width: 1023px) {
+  .quiet {
+    padding: 40px 0 80px 0;
+  }
+}
+@media (max-width: 767px) {
+  .quiet {
+    padding: 32px 0 60px 0;
+  }
+}
 .quiet__wrapper {
   display: flex;
   justify-content: space-between;
@@ -709,6 +725,16 @@ a {
 
 .hero {
   padding: 48px 0 0;
+}
+@media (max-width: 1023px) {
+  .hero {
+    padding: 40px 0 0;
+  }
+}
+@media (max-width: 767px) {
+  .hero {
+    padding: 32px 0 0;
+  }
 }
 .hero__heading {
   margin: 0;
@@ -1402,6 +1428,7 @@ a {
 }
 @media (max-width: 767px) {
   .tech__desc {
+    margin: 0 0 12px;
     font-size: 12px;
     line-height: 18px;
   }
@@ -1413,12 +1440,18 @@ a {
   row-gap: 4px;
   display: flex;
   flex-direction: column;
-  margin: 0 0 16px;
   padding: 0 0 0 16px;
+  margin: 0 0 16px;
 }
 @media (max-width: 1023px) {
   .tech__list {
     padding: 0 0 0 14px;
+    margin: 0 0 14px;
+  }
+}
+@media (max-width: 767px) {
+  .tech__list {
+    margin: 0 0 12px;
   }
 }
 .tech__list-item {
@@ -1451,7 +1484,7 @@ a {
   .indoor__wrapper {
     -moz-column-gap: 118px;
          column-gap: 118px;
-    grid-template-columns: 270px 340px;
+    grid-template-columns: 340px 270px;
   }
 }
 @media (max-width: 767px) {
@@ -1632,6 +1665,7 @@ a {
 @media (max-width: 767px) {
   .privacy__link-icon {
     width: 46px;
+    height: 32px;
   }
 }
 
