@@ -669,6 +669,9 @@ a {
     padding: 0 0 60px;
   }
 }
+.quiet__image {
+  width: 100%;
+}
 @media (max-width: 1023px) {
   .quiet__image {
     height: 400px;
@@ -971,7 +974,7 @@ a {
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   .benefit--unique {
-    background-image: url("../../images/image-image-unique-pond@2x.jpg");
+    background-image: url("../../images/image-unique-pond@2x.jpg");
   }
 }
 .benefit--tech {
@@ -979,7 +982,7 @@ a {
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   .benefit--tech {
-    background-image: url("../../images/image-image-tech@2x.jpg");
+    background-image: url("../../images/image-tech@2x.jpg");
   }
 }
 .benefit__number {
@@ -1292,6 +1295,7 @@ a {
   }
 }
 .flats__img {
+  width: 100%;
   min-height: 700px;
 }
 @media (max-width: 1023px) {
