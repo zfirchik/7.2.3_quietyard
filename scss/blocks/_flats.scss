@@ -43,7 +43,7 @@
       &__inner {
         position: absolute;
         text-align: center;
-        bottom: 200px;
+        bottom: 197px;
         left: 50%;
         transform: translateX(-50%);
 
@@ -52,7 +52,7 @@
         }
 
         @include vp-767 {
-            bottom: 50px;
+            bottom: 48px;
         }
       }
 
@@ -75,7 +75,7 @@
       }
     
       &__text {
-        margin: 0 0 24px;
+        margin: 0 0 19px;
         font-size: 22px;
         line-height: 24px;
         text-transform: uppercase;
@@ -83,9 +83,13 @@
         white-space: nowrap;
     
         @include vp-1023 {
-          margin: 0 0 20px;
+          margin: 0 0 11px;
           font-size: 16px;
           line-height: 18px;
+        }
+
+        @include vp-767 {
+          margin: 0 0 10px;
         }
       }
 
